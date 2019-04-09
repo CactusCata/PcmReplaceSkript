@@ -1,0 +1,128 @@
+name: PcmReplaceSkript
+version: 1.1.2
+author: CactusCata
+main: com.gmail.cactus.cata.Main
+commands:
+    broadcast:
+        aliases: [bcast]
+        description: Permet d'alerter les joueurs
+        usage: /<command> [message]
+        permission: pcm.broadcast
+        
+    spawn:
+        description: Permet de retourner au spawn
+        usage: /<command>
+        
+    setstaff:
+        description: Permet de mettre un grade sur un joueur
+        usage: /<command> [joueur] [grade] [motdepasse]
+        permission: pcm.setstaff
+        
+    warp:
+        aliases: [wp]
+        description: Permet de se teleporter a un warp
+        usage: /<command> [nomduwarp]
+        
+    setwarp:
+        description: Permet de creer un warp
+        usage: /<command> [nomduwarp]
+        permission: pcm.setwarp
+        
+    warps:
+        description: Recupere la liste de tout les warps
+        usage: /<command>
+        permission: pcm.warps
+        
+    delwarp:
+        description: Permet de supprimer un warp
+        usage: /<command> [nomduwarp]
+        permission: pcm.delwarp
+        
+    warpinfo:
+        description: Permet de recuperer les informations d'un warp
+        usage: /warpinfo [warp]
+        permission: pcm.warpinfo
+        
+    socialspy:
+        aliases: [spy]
+        description: Permet de regarder les messages prives des joueurs
+        permission: pcm.spy.socialspy
+        usage: /<command>
+        
+    spylist:
+        description: Permet de voir les personnes qui ont le spy active
+        permission: pcm.spy.list
+        usage: /<command>
+        
+    msg:
+        aliases: [w, m]
+        description: Permet d'envoyer un message a un joueur
+        permission: pcm.msg.send
+        usage: /<command> [joueur]
+        
+    r:
+        description: Permet de repondre aux messages de joueurs
+        permission: pcm.msg.rep
+        usage: /<command> [joueur]
+        
+    speed:
+        description: Permet de donner une vitesse de vol et au sol
+        permission: pcm.speed
+        usage: /<command> [vitesse]
+        
+    killb:
+        description: Permet de kill un joueur (commande utilise par les organisateurs)
+        permission: pcm.killb
+        usage: /<command> [message]
+        
+    tppos:
+        description: Permet de se teleporter a un joueur ou a des coordonnees
+        permission: pcm.tppos
+        usage: /<command> [joueur] ou /<command> [x] [y] [z]
+        
+    tpb:
+        description: Permet de teleporter un joueur a un autre joueur (commande utilise par les organisateurs)
+        permission: pcm.tpb
+        usage: /<command> [joueur] [joueur]
+        
+    fly:
+        description: Permet d'activer le mode fly
+        permission: pcm.fly
+        usage: /<command>
+        
+    infoplayer:
+        description: Permet dde recuperer les infos yaml d'un joueur
+        permission: pcm.info
+        usage: /<command> [joueur]
+        
+    gamemodeb:
+        aliases: [gmb]
+        description: Permet de switch entre gm1 et gm2 (commande pour orga)
+        permission: pcm.gamemodeb
+        usage: /<command>
+        
+    vanish:
+        description: Permet de se mettre en vanish
+        permission: pcm.vanish
+        usage: /<command>
+        
+    config:
+        description: Recupere les information de la config
+        permission: pcm.config
+        usage: /<command>
+        
+    lag:
+        aliases: [ping]
+        description: Recupere les tps du serveur ainsi que le ping
+        permission: pcm.lag
+        usage: /<command>
+        
+    commands:
+        description: Permet de d'activer ou desactiver certaines commandes
+        permission: pcm.commands
+        usage: /<command>
+        
+    heal:
+        description: Permet de se heal
+        permission: pcm.heal
+        usage: /<command>

@@ -1,0 +1,23 @@
+active-command:
+    broadcast: true
+    spawn: true
+    gamemodeb: true
+    setstaff: true
+    setwarp: true
+    delwarp: true
+    warp: true
+    warps: true
+    warpinfo: true
+    socialspy: true
+    spylist: true
+    msg: true
+    r: true
+    speed: true
+    killb: true
+    tppos: true
+    fly: true
+    infoplayer: true
+    vanish: true
+    config: true
+    lag: true
+    vanish: true
